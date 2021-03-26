@@ -1,0 +1,17 @@
+{
+	"public": {
+		"guilds-joined": {
+			"id": "",
+			"text": "Servers Joined: "
+		},
+		"all-users": {
+			"id": "",
+			"text": "Users: "
+		},
+		"last-update": ""
+	},
+	"private": {
+		"file-logs-enabled": ""
+	},
+	"last-update": ""
+}

@@ -1,0 +1,60 @@
+{
+  "name": "kuroro",
+  "version": "2.0.0",
+  "description": "KURORO-CHAN Rework",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloro-official/kuroro-chan-rework.git"
+  },
+  "keywords": [
+    "js",
+    "discord",
+    "javascript",
+    "kuroro",
+    "kuroro-chan"
+  ],
+  "author": "CLORO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloro-official/kuroro-chan-rework/issues"
+  },
+  "homepage": "https://github.com/cloro-official/kuroro-chan-rework#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^6.0.3",
+    "@vitalets/google-translate-api": "^4.0.0",
+    "base-64": "^0.1.0",
+    "booru": "^2.3.2",
+    "chance": "^1.1.7",
+    "colors": "^1.4.0",
+    "date-and-time": "^0.14.1",
+    "discord.js": "^12.3.1",
+    "discord.js-menu": "^2.1.1",
+    "format-number": "^3.0.0",
+    "free-google-image-search": "^1.0.0",
+    "fs-extra": "^9.0.1",
+    "google-images": "^2.1.0",
+    "google-it": "^1.5.4",
+    "hanime": "^1.1.2",
+    "is-image": "^3.0.0",
+    "iso-639-1": "^2.1.4",
+    "jsdom": "^16.4.0",
+    "keyv": "^4.0.3",
+    "keyv-file": "^0.2.0",
+    "mongodb": "^3.6.2",
+    "nana-api": "^1.1.2",
+    "nhentai-js": "^4.0.0",
+    "nodemon": "^2.0.4",
+    "numeral": "^2.0.6",
+    "pastebin-js": "^1.0.5",
+    "random": "^2.2.0",
+    "string-similarity": "^4.0.2",
+    "typescript": "^4.0.3",
+    "utf8": "^3.0.0",
+    "weighted-random": "^0.1.0"
+  },
+  "devDependencies": {}
+}

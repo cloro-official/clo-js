@@ -1,0 +1,14 @@
+{
+  "name": "BOT_NAME",
+  "default-prefix": "~",
+  "uri": "MONGODB",
+  "update-channel-id": "779652558310211594",
+  "version": [
+    "",
+    ""
+  ],
+  "whitelisted": [ "" ],
+  "token": "",
+  "token-64": ""
+
+}

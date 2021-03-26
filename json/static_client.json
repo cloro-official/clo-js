@@ -1,0 +1,14 @@
+{
+	"guilds-joined": 8,
+	"all-users": 1,
+	"file-logs-enabled": true,
+	"dynamic-presence-type": "guilds",
+	"static-presence-enabled": false,
+	"static-presence": "with CLORO",
+	"json-event-listen": [
+		"guildMemberAdd",
+		"guildMemberRemove",
+		"guildCreate",
+		"guildDelete"
+	]
+}
