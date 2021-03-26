@@ -39,12 +39,6 @@ class KURORO extends Discord.Client {
         this.commands = {};
         this.behavior = {};
 
-        this.pastebin = new Pastebin({
-            'api_dev_key': identity["pastebin-api"][0],
-            'api_user_name': identity["pastebin-api"][1],
-            'api_user_password': identity["pastebin-api"][2],
-        });
-
         // assign modules
         this.webhook = require('./webhook.js');
         this.format = require('./format.js');
@@ -79,29 +73,6 @@ class KURORO extends Discord.Client {
                 this.setTimestamp();
             }
         }; 
-
-        this.GenshinEmbed = class GenshinEmbed extends Discord.MessageEmbed {
-            constructor() {
-                super();
-
-                this.color = "#384184";
-                this.setFooter(`Genshin Gacha • KURORO by CLORO`);
-                this.setTimestamp();
-            }
-        }
-
-        this.UnirealmEmbed = class UnirealmEmbed extends Discord.MessageEmbed {
-            constructor() {
-                super();
-
-                this.color = "#2D2D30";
-                this.setFooter(`UNIREALM • KURORO by CLORO`);
-                this.setTimestamp()
-            }
-        }
-
-        this.genshin = new Genshin(this);
-        this.unirealm = new Unirealm(this);
 
         this.commands = commands;
         this.behavior = behavior;
